@@ -3,4 +3,28 @@
     width: 100vw;
     height: 100vh;
     object-fit: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.signUpFormContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #ffffff;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    border: 1px solid #adadad;
+    font-family: roboto;
+}
+
+.mainForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }

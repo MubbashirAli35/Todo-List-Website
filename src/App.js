@@ -1,6 +1,7 @@
 // imported libraries
 
 import React from 'react';
+import 'fontsource-roboto';
 
 // imported files
 
