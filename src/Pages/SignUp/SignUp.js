@@ -8,7 +8,7 @@ import './SignUp.css';
 export default function SignUp(props) {
     return(
         <Grid className='mainContainer' container max-width='xl'>
-            <Grid item style={{ width: '40vw' }}>
+            <Grid item md='4' xs='10'>
                 <Grid className='signUpFormContainer' container>
                     <h2>Sign Up</h2>
                     <form className='mainForm'>
