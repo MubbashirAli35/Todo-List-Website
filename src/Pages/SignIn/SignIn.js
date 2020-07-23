@@ -2,6 +2,7 @@ import React from 'react';
 import {Grid,
         TextField,
         Button} from '@material-ui/core';
+import { Link } from 'react-router-dom';
 
 import './SignIn.css';
 
@@ -30,7 +31,7 @@ export default function SignIn(props) {
                         </Button>
                         <div style={{ marginRight: 'auto', display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
                             <p>Not registered yet?</p>
-                            <a href='#' style={{ paddingLeft: '0.3rem' }}>Register here</a>
+                            <Link to='/SignUp' style={{ paddingLeft: '0.3rem' }}>Register here</Link>
                         </div>
                     </form>
                 </Grid>

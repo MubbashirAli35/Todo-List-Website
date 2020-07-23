@@ -2,6 +2,7 @@
 
 import React from 'react';
 import 'fontsource-roboto';
+import { Switch, Route, BrowserRouter, Redirect } from 'react-router-dom';
 
 // imported files
 
@@ -12,9 +13,13 @@ import './App.css';
 
 function App() {
   return (
-    <div>
-      <SignIn />
-    </div>
+    <BrowserRouter>
+      <Switch>
+        <Route path='/SignUp' component={SignUp} />
+        <Route path='/SignIn' component={SignIn} />
+        <Redirect to='/SignIn' />
+      </Switch>
+    </BrowserRouter>
   );
 }
 
